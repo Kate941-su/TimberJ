@@ -1,4 +1,4 @@
-import { TimberJ, LEVEL_D, LEVEL_I, LEVEL_W, LEVEL_E } from "../TimberJ";
+import { TimberJ, LEVEL_D, LEVEL_I, LEVEL_W, LEVEL_E } from "../src/TimberJ";
 
 console.log("=== TimberJ Environment Configuration Example ===\n");
 

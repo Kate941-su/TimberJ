@@ -1,4 +1,4 @@
-import { TimberJ, LEVEL_I } from "../TimberJ";
+import { TimberJ, LEVEL_I } from "../src/TimberJ";
 
 // Initialize TimberJ
 TimberJ.plant(LEVEL_I);
