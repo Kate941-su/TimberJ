@@ -87,10 +87,8 @@ class TimberJ {
   private static shared: TimberJ | undefined = undefined;
   static plant(level: Level) {
     if (this.shared !== undefined) {
-      console.log("TimberJ already planted");
       return;
     } else {
-      console.log("TimberJ is now planting");
       this.shared = new TimberJ();
       this.shared.level = level;
     }
