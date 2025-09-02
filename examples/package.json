@@ -1,0 +1,19 @@
+{
+  "name": "timberj-examples",
+  "version": "1.0.0",
+  "description": "Examples for the TimberJ logging library",
+  "scripts": {
+    "basic": "ts-node basic-usage.ts",
+    "service": "ts-node service-pattern.ts",
+    "env": "ts-node environment-config.ts",
+    "test": "ts-node test-example.ts",
+    "all": "npm run basic && npm run service && npm run env && npm run test",
+    "dev": "ts-node environment-config.ts development",
+    "staging": "ts-node environment-config.ts staging",
+    "prod": "ts-node environment-config.ts production"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
